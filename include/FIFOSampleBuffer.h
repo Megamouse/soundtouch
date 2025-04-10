@@ -156,7 +156,7 @@ public:
     void setChannels(int numChannels);
 
     /// Get number of channels
-    int getChannels()
+    int getChannels() const
     {
         return channels;
     }
