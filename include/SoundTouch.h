@@ -193,7 +193,7 @@ private:
     /// Accumulator for how many samples in total have been read out from the processing so far
     long   samplesOutput;
 
-    /// Calculates effective rate & tempo valuescfrom 'virtualRate', 'virtualTempo' and
+    /// Calculates effective rate & tempo values from 'virtualRate', 'virtualTempo' and
     /// 'virtualPitch' parameters.
     void calcEffectiveRateAndTempo();
 
