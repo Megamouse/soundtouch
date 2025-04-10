@@ -205,7 +205,7 @@ uint FIFOSampleBuffer::numSamples() const
 
 // Output samples from beginning of the sample buffer. Copies demanded number
 // of samples to output and removes them from the sample buffer. If there
-// are less than 'numsample' samples in the buffer, returns all available.
+// are less than 'maxSamples' samples in the buffer, returns all available.
 //
 // Returns number of samples copied.
 uint FIFOSampleBuffer::receiveSamples(SAMPLETYPE *output, uint maxSamples)

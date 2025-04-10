@@ -505,7 +505,7 @@ uint SoundTouch::numUnprocessedSamples() const
 
 /// Output samples from beginning of the sample buffer. Copies requested samples to
 /// output buffer and removes them from the sample buffer. If there are less than
-/// 'numsample' samples in the buffer, returns all that available.
+/// 'maxSamples' samples in the buffer, returns all that available.
 ///
 /// \return Number of samples returned.
 uint SoundTouch::receiveSamples(SAMPLETYPE *output, uint maxSamples)
